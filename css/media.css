@@ -1,0 +1,91 @@
+@media (max-width: 430px) {
+    body {
+        background: #F2F2F2;
+    }
+
+    .header_top_block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_top_block img {
+        width: 100px;
+        height: 100px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .quest_section {
+        margin: 0px auto;
+        max-width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .quest_card {
+        flex: 0 1 100%;
+        margin: 20px;
+    }
+
+    .quest_card img {
+        width: 100%;
+        justify-content: space-between;
+        width: 330px;
+        height: 135px;
+    }
+
+
+
+    .info {
+        color: #707070;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .android {
+        width: 130px;
+        height: 101px;
+    }
+
+    .icon {
+        width: 87px;
+        height: 87px;
+    }
+
+    .text {
+        color: #707070;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        margin: 35px 20px;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot img {
+        width: 32px;
+        height: 32px;
+        margin: 3px 18px;
+    }
+
+    .copyright {
+        color: #FFF;
+        font-family: "Open Sans" , sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        margin: 5px;
+    }
+}
